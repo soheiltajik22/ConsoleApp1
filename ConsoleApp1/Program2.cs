@@ -5,7 +5,7 @@ int your_Guess;
 Console.WriteLine("Please guess a number in your mind.");
 int RandomNumber = new Random().Next(0, 100);
 Console.WriteLine("Is your guessed number " + RandomNumber + "?");
-Console.WriteLine("If your guess is bigger, press 'B'. If it is smaller, press 'S'. To stop, press 'R'.");
+Console.WriteLine("If youxr guess is bigger, press 'B'. If it is smaller, press 'S'. To stop, press 'R'.");
 
 string Input = Console.ReadLine();
 Random random = new Random();
